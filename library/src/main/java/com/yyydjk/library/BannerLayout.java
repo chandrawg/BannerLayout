@@ -218,7 +218,7 @@ public class BannerLayout extends RelativeLayout {
                 }
             }
         });
-        imageView.setScaleType(ImageView.ScaleType.CENTER_FIT);
+        imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
         imageLoader.displayImage(getContext(), url, imageView);
         return imageView;
     }
